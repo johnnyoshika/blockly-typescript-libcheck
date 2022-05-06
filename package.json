@@ -12,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "blockly": "^8.0.1"
   }
 }
