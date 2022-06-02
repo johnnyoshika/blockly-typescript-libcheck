@@ -14,6 +14,6 @@
     "typescript": "^4.6.4"
   },
   "dependencies": {
-    "blockly": "^8.0.1"
+    "blockly": "^8.0.3-beta.1"
   }
 }
