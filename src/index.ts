@@ -34,6 +34,12 @@ Blockly.JavaScript['x_text_log'] = function (block: any) {
   return `console.log(${text}, ${value});\n`;
 };
 
+Blockly.inject('test', {
+  zoom: {
+    wheel: true,
+  },
+});
+
 console.log(
   Blockly.JavaScript.provideFunction_,
   Blockly.JavaScript.FUNCTION_NAME_PLACEHOLDER_,
